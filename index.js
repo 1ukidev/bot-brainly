@@ -16,7 +16,7 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
 	console.log('Vamo q vamo!');
-  client.user.setActivity(`Em operação!`, { type: "LISTENING" });
+  client.user.setActivity(`nada`, { type: "LISTENING" });
 });
 
 client.on('message', message => {
@@ -31,7 +31,7 @@ client.on('message', message => {
 		client.commands.get(command).execute(message, args);
 	} catch (error) {
 		console.error(error);
-		message.reply('Vixe, tem algo errado');
+		message.reply('Vixe, tem algo errado.');
 	}
 });
 
