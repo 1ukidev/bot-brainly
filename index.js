@@ -16,7 +16,7 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
 	console.log('Vamo q vamo!');
-  client.user.setActivity(`nada`, { type: "LISTENING" });
+  	client.user.setActivity(`nada`, { type: "LISTENING" });
 });
 
 client.on('message', message => {
