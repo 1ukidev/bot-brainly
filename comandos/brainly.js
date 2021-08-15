@@ -26,4 +26,4 @@ module.exports = {
         message.channel.send('Eita, não achei nada.');
       }
     }
-  };
+};
